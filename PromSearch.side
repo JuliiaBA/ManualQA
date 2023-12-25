@@ -1,0 +1,128 @@
+{
+  "id": "078a0f9c-e598-4166-90d8-9454fb703d88",
+  "version": "2.0",
+  "name": "Prom",
+  "url": "https://prom.ua",
+  "tests": [{
+    "id": "d93a0981-0258-4916-98b6-d8ee140593ad",
+    "name": "Search",
+    "commands": [{
+      "id": "309ed4fc-eec0-4014-b4b5-f2ccdae34184",
+      "comment": "",
+      "command": "open",
+      "target": "/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0221c464-98fd-45fa-8027-58eababaa56e",
+      "comment": "",
+      "command": "click",
+      "target": "name=search_term",
+      "targets": [
+        ["name=search_term", "name"],
+        ["css=.Dm7py", "css:finder"],
+        ["xpath=//input[@name='search_term']", "xpath:attributes"],
+        ["xpath=//div[@id='page-block']/div/header/div/div/div[2]/div/div/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ba3eaaf-b0e5-4548-ba4c-b039701c20bc",
+      "comment": "",
+      "command": "type",
+      "target": "name=search_term",
+      "targets": [
+        ["name=search_term", "name"],
+        ["css=.Dm7py", "css:finder"],
+        ["xpath=//input[@name='search_term']", "xpath:attributes"],
+        ["xpath=//div[@id='page-block']/div/header/div/div/div[2]/div/div/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "корм для кошенят opti meal"
+    }, {
+      "id": "95dfb22e-94f1-4d39-b644-d6258daf89b2",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search_term",
+      "targets": [
+        ["name=search_term", "name"],
+        ["css=.Dm7py", "css:finder"],
+        ["xpath=//input[@name='search_term']", "xpath:attributes"],
+        ["xpath=//div[@id='page-block']/div/header/div/div/div[2]/div/div/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "9abe224b-d088-4877-90b8-cd1ad844b0a6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,500)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c1eeee7c-f1d5-4c7b-80aa-6b14b2f9877f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l-GwW:nth-child(2) > .M3v0L > .\\_0cNvO",
+      "targets": [
+        ["css=.l-GwW:nth-child(2) > .M3v0L > .\\_0cNvO", "css:finder"],
+        ["xpath=//div[@id='page-block']/div/div[2]/div/div[4]/div[3]/div/div[2]/div/div/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/p1984561787-vologij-korm-dlya.html?token=v2%3AvT-QTyo6sf17RkqTaZqc4Y-J8UvmERZHocLss5Lc93Yb8WYBsRwNibmNz81hnyT5j6qnSK1DN1171NYpplkJ0e-Rs4_BurPTWRbncT5LDQsHWdDas--aWUR_Hft7Geay&campaign_id=3779609&product_id=1984561787&source=prom%3Asearch%3Aserp&locale=uk&category_ids=2701&from_spa=true')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "712ba01a-6ac1-4cd2-b9a1-708391efa578",
+      "comment": "",
+      "command": "click",
+      "target": "css=.aXZVR > .D8VyR",
+      "targets": [
+        ["css=.aXZVR > .D8VyR", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f289f92-db44-488c-bd52-8f52dc117f09",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.qa-state-in-shoping-cart",
+      "targets": [
+        ["css=.qa-state-in-shoping-cart", "css:finder"],
+        ["xpath=(//button[@type='button'])[16]", "xpath:attributes"],
+        ["xpath=//div[@id='page-block']/div/div[2]/div/div/div[3]/div[2]/div/div/div[5]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'В кошику')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "20ba3241-b293-47c9-af5f-a12e993055c4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.qa-state-in-shoping-cart",
+      "targets": [
+        ["css=.qa-state-in-shoping-cart", "css:finder"],
+        ["xpath=(//button[@type='button'])[16]", "xpath:attributes"],
+        ["xpath=//div[@id='page-block']/div/div[2]/div/div/div[3]/div[2]/div/div/div[5]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'В кошику')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd3246ad-96d0-4100-bd14-838cc9b01dda",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "111b3294-75a5-46c0-b5d4-24b783b9cf99",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d93a0981-0258-4916-98b6-d8ee140593ad"]
+  }],
+  "urls": ["https://prom.ua/"],
+  "plugins": []
+}
