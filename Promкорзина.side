@@ -1,0 +1,242 @@
+{
+  "id": "2961298e-6ebc-4858-93c7-43f38dec8a7d",
+  "version": "2.0",
+  "name": "Prom",
+  "url": "https://prom.ua",
+  "tests": [{
+    "id": "b8bef7f9-a8fc-4bed-bf9f-c4e1731d6d95",
+    "name": "корзина",
+    "commands": [{
+      "id": "e7e6abe2-74b6-4f3c-9ee0-f0be555e984a",
+      "comment": "",
+      "command": "open",
+      "target": "/ua/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1e53d95-275e-4884-b4b7-c06b1a355403",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_94Eq7:nth-child(2) .gCAIM",
+      "targets": [
+        ["css=.\\_94Eq7:nth-child(2) .gCAIM", "css:finder"],
+        ["xpath=//img[@alt='Подарунки до Різдва']", "xpath:img"],
+        ["xpath=//div[@id='page-block']/div/div[2]/div/div/div/div/div[2]/div/div/ul/li[2]/a/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "716adfc4-611a-473d-9d85-f144b20b47c2",
+      "comment": "",
+      "command": "click",
+      "target": "name=search_term",
+      "targets": [
+        ["name=search_term", "name"],
+        ["css=.Dm7py", "css:finder"],
+        ["xpath=//input[@name='search_term']", "xpath:attributes"],
+        ["xpath=//div[@id='page-block']/div/header/div/div/div[2]/div/div/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1bdaec9-72ad-4454-90cf-551045e6b7ed",
+      "comment": "",
+      "command": "type",
+      "target": "name=search_term",
+      "targets": [
+        ["name=search_term", "name"],
+        ["css=.Dm7py", "css:finder"],
+        ["xpath=//input[@name='search_term']", "xpath:attributes"],
+        ["xpath=//div[@id='page-block']/div/header/div/div/div[2]/div/div/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "кросівки дитячі"
+    }, {
+      "id": "67fff866-af49-4bab-ba17-4e95a5c1d747",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search_term",
+      "targets": [
+        ["name=search_term", "name"],
+        ["css=.Dm7py", "css:finder"],
+        ["xpath=//input[@name='search_term']", "xpath:attributes"],
+        ["xpath=//div[@id='page-block']/div/header/div/div/div[2]/div/div/div/div/div/form/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "5050d4c0-03e7-485f-bb75-03e7f6f675a3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.EoukJ",
+      "targets": [
+        ["css=.EoukJ", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='page-block']/div/header/div/div/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Каталог')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad7857cb-fec5-4e63-b9e9-0be45064562e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bc4f17ba-7185-4b6b-a819-3b6b5b506913",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l-GwW:nth-child(1) > .M3v0L > .\\_0cNvO",
+      "targets": [
+        ["css=.l-GwW:nth-child(1) > .M3v0L > .\\_0cNvO", "css:finder"],
+        ["xpath=//div[@id='page-block']/div/div[2]/div/div[4]/div[3]/div/div[2]/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ua/p1688144107-zimnie-krossovki-detskie.html?token=v2%3AUH2Erf8bCNjGcXt5iaNj865ziQyi9tQLkpXeFOFdJcu7OZIXuGeuJaDEJ_4oUwe-VKDsXvCUsp3hXumhm0J4cba2x8wtbebDyng6glXRnr5PiLDiR0LAXbWsdKPthrYQ&campaign_id=3100265&product_id=1688144107&source=prom%3Asearch%3Aserp&locale=uk&category_ids=3221214&from_spa=true')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc45d03e-3033-4871-8cc7-bf5427de62e5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uTnwV",
+      "targets": [
+        ["css=.uTnwV", "css:finder"],
+        ["xpath=(//button[@type='button'])[22]", "xpath:attributes"],
+        ["xpath=//div[@id='page-block']/div/div[2]/div/div/div[3]/div[2]/div/div/div[6]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[6]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Купити')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d42c5a0-0490-42e4-9139-ff1ed710611d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,160.6666717529297)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f225b13b-5108-46f5-9a9d-9f1a114ee32d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_4-SzE > .\\_3Trjq",
+      "targets": [
+        ["css=.\\_4-SzE > .\\_3Trjq", "css:finder"],
+        ["xpath=//div[@id='page-block']/div/div[2]/div/div/div[3]/div[2]/div[2]/ul/li/div[2]/div/div/div[2]/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "68d1c5e1-86f2-4d02-a0d4-60e12351ed5d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,137.3333282470703)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af8c71d8-7f51-488e-a015-dca09d1ed528",
+      "comment": "",
+      "command": "click",
+      "target": "css=.uTnwV > .M3v0L:nth-child(2)",
+      "targets": [
+        ["css=.uTnwV > .M3v0L:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='page-block']/div/div[2]/div/div/div[3]/div[2]/div/div/div[5]/div/div[2]/button/div[2]", "xpath:idRelative"],
+        ["xpath=//button/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5a97d4e0-2d05-4564-b8b3-3baaa8141089",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.qa-state-in-shoping-cart",
+      "targets": [
+        ["css=.qa-state-in-shoping-cart", "css:finder"],
+        ["xpath=(//button[@type='button'])[20]", "xpath:attributes"],
+        ["xpath=//div[@id='page-block']/div/div[2]/div/div/div[3]/div[2]/div/div/div[5]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'В кошику')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cfb336c5-babe-45be-8daa-af98348a25cf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.qa-state-in-shoping-cart",
+      "targets": [
+        ["css=.qa-state-in-shoping-cart", "css:finder"],
+        ["xpath=(//button[@type='button'])[20]", "xpath:attributes"],
+        ["xpath=//div[@id='page-block']/div/div[2]/div/div/div[3]/div[2]/div/div/div[5]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'В кошику')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "018529c4-0c9e-402e-aa99-f4ccd9cbeb16",
+      "comment": "",
+      "command": "click",
+      "target": "css=.l-GwW:nth-child(3) > .VS-Ex .D8VyR",
+      "targets": [
+        ["css=.l-GwW:nth-child(3) > .VS-Ex .D8VyR", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f26acf9-49ef-4bbc-a2d0-52587355189d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.l-GwW:nth-child(3) > .VS-Ex .D8VyR",
+      "targets": [
+        ["css=.l-GwW:nth-child(3) > .VS-Ex .D8VyR", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "4c557aa4-2e98-41dd-8ec4-e697a307d7f8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.l-GwW:nth-child(3) > .VS-Ex .D8VyR",
+      "targets": [
+        ["css=.l-GwW:nth-child(3) > .VS-Ex .D8VyR", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fb4771c-cc70-4597-8e78-169706ff351c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fSW5o:nth-child(2) > .RVefu > .RVefu .\\_2uocW",
+      "targets": [
+        ["css=.fSW5o:nth-child(2) > .RVefu > .RVefu .\\_2uocW", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "92c15dc4-c938-4056-8300-a9ab76a7551b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fSW5o:nth-child(1) > div > .RVefu > .RVefu > .P3IXJ",
+      "targets": [
+        ["css=.fSW5o:nth-child(1) > div > .RVefu > .RVefu > .P3IXJ", "css:finder"],
+        ["xpath=(//button[@type='button'])[30]", "xpath:attributes"],
+        ["xpath=//div[@id='react-portal']/div[3]/div/div/div[2]/div/div/div/div/ul/li/div[3]/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//li/div[3]/div/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Оформити замовлення')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc8f1bda-dfcd-4719-8f4b-125e3c5bf11b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c5fef695-3fd4-4c43-b305-76d603311c93",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["b8bef7f9-a8fc-4bed-bf9f-c4e1731d6d95"]
+  }],
+  "urls": ["https://prom.ua/"],
+  "plugins": []
+}
